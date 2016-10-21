@@ -15,8 +15,8 @@ $('.element-selector').sourceCode();
 ### Options
 
 * `identifier` **default: sourcecode** Used as the event namespace identifier and the element's data attribute name
-* `targetSelector` **default: 'has-child'** The class to give to a *navItemSelector* with children
-* `destinationSelector` *default: 'has-active-child'* The class to give to a parent *navItemSelector* with active children
+* `targetSelector` **default: 'code-target'** The selector used to find the element to get the HTML code from within the element
+* `destinationSelector` *default: ''* The place to make the source code element. If left blank, the element will be created adter the ```targetSelector```
 
 ### Locally Overriding Options
 
