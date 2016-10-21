@@ -12,7 +12,7 @@ $('.element-selector').sourceCode();
 ```
 
 ### Default HTML Structure
-```
+```html
 <div class="js-source-code">
     <div class="code-target">
         Default <em>Code</em> <strong>Example!</strong>
