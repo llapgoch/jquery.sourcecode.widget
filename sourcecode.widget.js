@@ -12,7 +12,7 @@
 	$.widget('llapgoch.sourceCode', {
 		// Any option can also be overridden by using it on the container's data attribute, prepended with identifier
 		options: {
-			identifier: "sourcecode",
+			identifier: 'sourcecode',
 			/* Use this to identify where to get the source code from */
 			targetSelector: '.code-target',
 			/* Use this to tell us where to create the target selector */
@@ -32,6 +32,7 @@
 		},
 
 		_getLocalOption: function(option){
+			// Replace first character with an uppercase version
 			var localOption =  this.options.identifier + option.replace(/^([a-z])/, function(a){return a.toUpperCase()});
 			var local = this.element.data(localOption);
 
