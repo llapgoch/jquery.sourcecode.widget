@@ -12,6 +12,7 @@ $('.element-selector').sourceCode();
 ```
 
 ### Default HTML Structure
+In this example, the source code version of ```.code-target``` will be created directly after it in the DOM. 
 ```html
 <div class="js-source-code">
     <div class="code-target">
