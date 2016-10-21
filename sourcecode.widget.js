@@ -16,7 +16,7 @@
 			/* Use this to identify where to get the source code from */
 			targetSelector: '.code-target',
 			/* Use this to tell us where to create the target selector */
-			codeContainerSelector: '',
+			destinationSelector: '',
             wrapHTML: '<div class="llapgoch-source-code"><code></code></div>',
 			innerWrap: '<pre>'
 		},
