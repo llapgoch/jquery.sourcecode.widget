@@ -11,6 +11,15 @@ To instantiate the widget independently, use the following:
 $('.element-selector').sourceCode();
 ```
 
+### Default HTML Structure
+```
+<div class="js-source-code">
+    <div class="code-target">
+        Default <em>Code</em> <strong>Example!</strong>
+    </div>
+</div>
+```
+
 
 ### Options
 
