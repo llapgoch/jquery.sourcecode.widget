@@ -84,7 +84,7 @@
 	});
 
 	$(document).on('ready', function(){
-		$(defaultInstantiationSelecor).sourceCode({});
+		$(defaultInstantiationSelecor).sourceCode();
 	});
 }(jQuery));
 
