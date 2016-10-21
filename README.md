@@ -16,7 +16,7 @@ $('.element-selector').sourceCode();
 
 * `identifier` **default: sourcecode** Used as the event namespace identifier and the element's data attribute name
 * `targetSelector` **default: 'code-target'** The selector used to find the element to get the HTML code from within the element
-* `destinationSelector` **default: ''** The place to make the source code element. If left blank, the element will be created adter the ```targetSelector```
+* `destinationSelector` **default: ''** The place to make the source code element. If left blank, the element will be created after the ```targetSelector```
 
 ### Locally Overriding Options
 
