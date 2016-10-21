@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
+
+        <script>
+            jQuery.noConflict();
+        </script>
+
+        <script src="sourcecode.widget.js"></script>
+    </head>
+
+    <body>
+
+        <div class="js-source-code">
+            <div class="code-target">
+                Default <em>Code</em> <strong>Example!</strong>
+            </div>
+        </div>
+
+
+        <div class="js-source-code" data-sourcecode-code-container-selector=".alternate-destination" data-sourcecode-target-selector=".code-alternative-source">
+            <div class="code-alternative-source">
+                Override local options <strong>codeContainerSelector</strong> and <strong>targetSelector</strong>
+            </div>
+
+            <div class="alternate-destination"></div>
+        </div>
+    </body>
+</html>
