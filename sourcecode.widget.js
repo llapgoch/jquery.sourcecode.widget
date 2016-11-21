@@ -1,11 +1,4 @@
 
-/*
-* View Source
-* Generates copy/pastable markup from actual rendered markup.
-*
-* Copyright (c) 2016 Filament Group, Inc.
-* Licensed under the MIT, GPL licenses.
- */
 ;(function($){
 	var defaultInstantiationSelecor = ".js-source-code";
 
